@@ -1,0 +1,23 @@
+﻿  practica3.cpp
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(39,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(40,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(156,39): warning C4244: '=': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(378,12): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(378,40): warning C4804: '<=': unsafe use of type 'bool' in operation
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(383,19): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(388,19): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(393,20): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(414,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(415,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(446,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\practica3.cpp(447,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  1 of 112 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Practica3.vcxproj -> C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\x64\Release\Practica3.exe

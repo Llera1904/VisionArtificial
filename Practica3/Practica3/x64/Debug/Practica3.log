@@ -1,0 +1,6 @@
+﻿  practica1.cpp
+  Source.cpp
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\Practica3\Source.cpp(17,8): warning C4101: 'sigma': unreferenced local variable
+  Generating Code...
+Source.obj : error LNK2005: main already defined in practica1.obj
+C:\Users\leoll\OneDrive\Escritorio\Vision\Practicas\Practica3\x64\Debug\Practica3.exe : fatal error LNK1169: one or more multiply defined symbols found
