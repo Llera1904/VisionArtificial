@@ -1,0 +1,47 @@
+-Crear entorno Conda y activarlo:
+conda create --name yolov7Project
+conda activate yolov7Project
+
+-Intalar los requrimientos (Enrutar a la carpeta de yolov7):
+pip install -r requirements.txt 
+
+-Descargar los pesos pre-entrenados (yolov7.pt):
+https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
+
+-Para entrenar guardar documento de pesos en la carpeta de yolov7
+-Para utilizar la GPU instalar cuda
+https://developer.nvidia.com/cuda-downloads
+
+-Instalar Pytorch: 
+pip install torch==1.11.0+cu113 
+torchvision==0.12.0+cu113 torchaudio==0.11.0 
+--extra-index-url https://download.pytorch.org/whl/cu113
+
+-Entrenar
+python train.py --workers 6 --device 0 --batch-size 16 --epoch 10 --img 640 640 --data data/CustomData.yaml --hyp data/hyp.scratch.tiny.yaml --cfg cfg/training/yolov7-tiny.yaml --name ProjectHands --weights yolov7-tiny.pt
+
+-Prueba
+python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/.jpg --device 0
+
+-Puesta en producción
+Camara:
+python detect.py --weights best.pt --img 640 --conf 0.25 --source 0
+
+Fuente video:
+python detect.py --source RUTA VIDEO --weights best.pt --conf 0.25 --view-img --no-trace
+
+Comandos para usar labelImg
+Descargar proyecto: https://github.com/heartexlabs/labelImg
+
+pip install PyQt5
+pip install lxml
+pip install label-studio
+
+pyrcc5 -o libs/resources.py resources.qrc
+python labelImg.py
+
+Datos dataset
+Crear carpeta con train y valid
+En cada carpeta crear una carpeta images
+y labels
+
